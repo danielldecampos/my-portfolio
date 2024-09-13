@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", "nuxt-svgo", "@nuxt/image", "@nuxtjs/tailwindcss"],
   css: ["@/assets/css/main.css"],
   components: true,
+
   content: {
     markdown: {
       anchorLinks: false,
@@ -28,4 +29,6 @@ export default defineNuxtConfig({
       ]
     }
   },
+
+  compatibilityDate: '2024-09-12',
 })

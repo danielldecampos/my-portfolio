@@ -1,67 +1,112 @@
+// DevOps Expertise
+import AwsIcon from "assets/devicon/aws.svg?component";
+import DockerIcon from "assets/devicon/docker.svg?component";
+import GitHubIcon from "assets/devicon/github.svg?component";
+import GitLabIcon from "assets/devicon/gitlab.svg?component";
+import GrafanaIcon from "assets/devicon/grafana.svg?component";
+import JenkinsIcon from "assets/devicon/jenkins.svg?component";
+import KubernetesIcon from "assets/devicon/kubernetes.svg?component";
+import LinuxIcon from "assets/devicon/linux.svg?component";
+import SnykIcon from "assets/devicon/snyk.svg?component";
+import SonarCloudIcon from "assets/devicon/sonarcloud.svg?component";
+import SonarQubeIcon from "assets/devicon/sonarqube.svg?component";
 // Backend Expertise
-import NodeIcon from "assets/devicon/node.svg?component";
-import LaravelIcon from "assets/devicon/laravel.svg?component";
-// Frontend Expertise
-import VueIcon from "assets/devicon/vuejs.svg?component";
-import NuxtIcon from "assets/devicon/nuxt.svg?component";
-import BootstrapIcon from "assets/devicon/bootstrap.svg?component";
-import JavascriptIcon from "assets/devicon/javascript.svg?component";
-import TailwindCssIcon from "assets/devicon/tailwindcss.svg?component";
+import BachIcon from "assets/devicon/bash.svg?component";
+import FlaskIcon from "assets/devicon/flask.svg?component";
+import PostgresIcon from "assets/devicon/postgresql.svg?component";
+import PythonIcon from "assets/devicon/python.svg?component";
 // Timeline
 import Home from "assets/icons/home.svg?component";
 import Academy from "assets/icons/academy.svg?component";
 
 const author = {
     author_image: "/author.png",
-    name: "Md Solaiman",
-    position: "Full Stack Developer",
-    email: "hello@rathik.dev",
-    location: "Dhaka, Bangladesh",
-    github: "mdrathik",
+    name: "Daniel De Campos",
+    position: "DevOps Engineer",
+    email: "danieldecampos.v@gmail.com",
+    location: "Buenos Aires City, Argentina",
+    github: "ddecampos",
     socials: {
-        twitter: "MDRT83716131",
-        stackoverflow: "#",
-        youtube: "#",
-        linkedin: "#",
-        facebook: "#",
+        github: "https://github.com/ddecampos",
+        linkedin: "https://www.linkedin.com/in/danieldek/"
     },
     expertises: {
-        "Frontend": [
+        "DevOps": [
             {
-                name: "Bootstrap",
-                icon: BootstrapIcon,
+                name: "AWS",
+                icon: AwsIcon,
                 description: "",
             },
             {
-                name: "Tailwind",
-                icon: TailwindCssIcon,
+                name: "Docker",
+                icon: DockerIcon,
                 description: "",
             },
             {
-                name: "Javascript",
-                icon: JavascriptIcon,
+                name: "GitHub",
+                icon: GitHubIcon,
                 description: "",
             },
             {
-                name: "VueJS",
-                icon: VueIcon,
+                name: "GitLab",
+                icon: GitLabIcon,
                 description: "",
             },
             {
-                name: "Nuxt 3",
-                icon: NuxtIcon,
+                name: "Grafana",
+                icon: GrafanaIcon,
+                description: "",
+            },
+            {
+                name: "Jenkins",
+                icon: JenkinsIcon,
+                description: "",
+            },
+            {
+                name: "Kubernetes",
+                icon: KubernetesIcon,
+                description: "",
+            },
+            {
+                name: "Linux",
+                icon: LinuxIcon,
+                description: "",
+            },
+            {
+                name: "Snyk",
+                icon: SnykIcon,
+                description: "",
+            },
+            {
+                name: "SonarCloud",
+                icon: SonarCloudIcon,
+                description: "",
+            },
+            {
+                name: "SonarQube",
+                icon: SonarQubeIcon,
                 description: "",
             }
         ],
         "Backend": [
             {
-                name: "Laravel",
-                icon: LaravelIcon,
+                name: "Bach",
+                icon: BachIcon,
                 description: "",
             },
             {
-                name: "NodeJs",
-                icon: NodeIcon,
+                name: "Flask",
+                icon: FlaskIcon,
+                description: "",
+            },
+            {
+                name: "Postgres",
+                icon: PostgresIcon,
+                description: "",
+            },
+            {
+                name: "Python",
+                icon: PythonIcon,
                 description: "",
             }
         ]
@@ -70,27 +115,33 @@ const author = {
         {
             icon: Academy,
             currently: true,
-            title: "Software Engineer at FANG",
-            subtitle: "2018-Currently",
-            description: "Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.",
+            title: "DevOps Analyst at Accusys Technology",
+            subtitle: "02/2023 — Present",
+            description: "Specialist in the implementation of DevOps best practices.",
         },
         {
             icon: Academy,
-            title: "Freelancer",
-            subtitle: "Released on December 7th, 2021",
-            description: "All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.",
+            title: "Backend Developer at Buenos Aires City Government",
+            subtitle: "08/2019 — 01/2023",
+            description: "Geographic information systems developer.",
         },
         {
             icon: Academy,
-            title: "2013 - Dhaka University ",
-            subtitle: "2013 - 2018",
-            description: "Studied \"BSC in Computer Science and Engineering\" in Dhaka University.",
+            title: "SQL Developer at XYGO",
+            subtitle: "08/2018 — 07/2019",
+            description: "Management, design and optimization of relational databases.",
+        },
+        {
+            icon: Academy,
+            title: "University",
+            subtitle: "2011 - 2017",
+            description: "I pursued a degree in Systems Engineering at Universidad Bicentenaria de Aragua.",
         },
         {
             icon: Home,
-            title: "Born in 1996, July 27",
-            subtitle: "Dhaka Bangladesh",
-            description: "I couldn't remember any productive work in that time. But",
+            title: "Born in 1991, Sep 28",
+            subtitle: "Maracay, Venezuela.",
+            description: "",
         }
     ],
 };
