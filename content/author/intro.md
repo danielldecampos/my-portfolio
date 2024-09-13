@@ -4,5 +4,5 @@ page: intro
 draft: false
 ---
 
-I'm a simple computer guy with solid knowlede about DevOps and many other nice things.
+I'm a simple computer guy with solid knowledge about DevOps and another cool things.
 Continuous learning every day.
