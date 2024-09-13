@@ -1,11 +1,7 @@
 # NuxtJs Tailwind Blog
 
-This is a nuxtjs, Tailwind CSS blogging template. Its supported Markdown for blog
-![Drag Racing](thumbnail.png)
+This is a nuxtjs, Tailwind CSS blogging template. Its supported Markdown for blog.
 
-# Examples/Demo
-
-- [Demo blog - This repo](https://nuxt-tailwind-blog.netlify.app)
 
 ## Build Setup
 
@@ -29,10 +25,6 @@ For detailed explanation on how things work, check out the [documentation](https
 
 
 Inspired from [timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog) nextJs Blog
-## Spacial Thanks to :
-
-i made the design inspired from them.
-[ansango](https://github.com/ansango/resume) , [einargudni](https://www.einargudni.com/projects) , [leohuynh](https://www.leohuynh.dev)
 
 # Licence
 
