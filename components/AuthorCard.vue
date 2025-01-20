@@ -16,6 +16,9 @@
         <div class="md:text-lg text-gray-600 dark:text-blue-100">
           {{ author.position }}
         </div>
+        <div class="md:text-lg text-gray-600 dark:text-blue-100">
+          {{ author.position2 }}
+        </div>
         <a
           :href="`mailto:${author.email}`"
           class="text-gray-600 md:hidden mt-1 dark:text-blue-100"

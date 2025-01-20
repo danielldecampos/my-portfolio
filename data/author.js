@@ -22,7 +22,8 @@ import Academy from "assets/icons/academy.svg?component";
 const author = {
     author_image: "/author.png",
     name: "Daniel De Campos",
-    position: "DevOps Engineer",
+    position: "DevOps | Amazon Web Services (AWS)",
+    position2: "| Software Developer | Data Architect",
     email: "danieldecampos.v@gmail.com",
     location: "Buenos Aires City, Argentina",
     github: "ddecampos",
@@ -31,7 +32,7 @@ const author = {
         linkedin: "https://www.linkedin.com/in/danieldek/"
     },
     expertises: {
-        "DevOps": [
+        "DevOps Skills": [
             {
                 name: "AWS",
                 icon: AwsIcon,
@@ -88,7 +89,7 @@ const author = {
                 description: "",
             }
         ],
-        "Backend": [
+        "Software Development Skills": [
             {
                 name: "Bach",
                 icon: BachIcon,
@@ -114,16 +115,9 @@ const author = {
     timeline: [
         {
             icon: Academy,
-            currently: true,
-            title: "DevOps Analyst at Accusys Technology",
-            subtitle: "02/2023 — Present",
-            description: "Specialist in the implementation of DevOps best practices.",
-        },
-        {
-            icon: Academy,
-            title: "Backend Developer at Buenos Aires City Government",
-            subtitle: "08/2019 — 01/2023",
-            description: "Geographic information systems developer.",
+            title: "Data Architect at Secretaría de Innovación y Transformación Digital",
+            subtitle: "08/2019 — Present",
+            description: "Design, manage and analyze big data from the AWS cloud.",
         },
         {
             icon: Academy,
