@@ -22,14 +22,14 @@ import Academy from "assets/icons/academy.svg?component";
 const author = {
     author_image: "/author.png",
     name: "Daniel De Campos",
-    position: "DevOps | Amazon Web Services (AWS)",
-    position2: "| Software Developer | Data Architect",
+    position: "DevOps | AWS | Docker | k8s | IaC",
+    // position2: "| Docker | k8s",
     email: "danieldecampos.v@gmail.com",
     location: "Buenos Aires City, Argentina",
-    github: "ddecampos",
+    github: "danielldecampos",
     socials: {
-        github: "https://github.com/ddecampos",
-        linkedin: "https://www.linkedin.com/in/danieldek/"
+        github: "https://github.com/danielldecampos",
+        linkedin: "https://www.linkedin.com/in/danielldecampos/"
     },
     expertises: {
         "DevOps Skills": [
@@ -115,15 +115,15 @@ const author = {
     timeline: [
         {
             icon: Academy,
-            title: "Data Architect at Secretaría de Innovación y Transformación Digital",
-            subtitle: "08/2019 — Present",
+            title: "DevOps Analyst at Secretaría de Innovación y Transformación Digital",
+            subtitle: "01/2023 — Present",
             description: "Design, manage and analyze big data from the AWS cloud.",
         },
         {
             icon: Academy,
-            title: "SQL Developer at XYGO",
-            subtitle: "08/2018 — 07/2019",
-            description: "Management, design and optimization of relational databases.",
+            title: "Backend Developer at Secretaría de Innovación y Transformación Digital",
+            subtitle: "08/2019 — 01/2023",
+            description: "Maintaining systems focused on geospatial data and public digital services, integrating APIs, databases, and analysis tools to enhance decision-making.",
         },
         {
             icon: Academy,
