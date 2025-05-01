@@ -115,13 +115,19 @@ const author = {
     timeline: [
         {
             icon: Academy,
-            title: "DevOps Analyst at Secretaría de Innovación y Transformación Digital",
+            title: "DevOps Analyst at Accusys Technology",
             subtitle: "01/2023 — Present",
             description: "Design, manage and analyze big data from the AWS cloud.",
         },
         {
             icon: Academy,
-            title: "Backend Developer at Secretaría de Innovación y Transformación Digital",
+            title: "Data Engineer - Independent at Secretaría de Innovación y Transformación Digital",
+            subtitle: "01/2023 — Present",
+            description: "Design, manage and analyze big data from the AWS cloud.",
+        },
+        {
+            icon: Academy,
+            title: "Backend Developer - Independent at Secretaría de Innovación y Transformación Digital",
             subtitle: "08/2019 — 01/2023",
             description: "Maintaining systems focused on geospatial data and public digital services, integrating APIs, databases, and analysis tools to enhance decision-making.",
         },
