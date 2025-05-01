@@ -117,7 +117,7 @@ const author = {
             icon: Academy,
             title: "DevOps Analyst at Accusys Technology",
             subtitle: "01/2023 — Present",
-            description: "Design, manage and analyze big data from the AWS cloud.",
+            description: "Design, implementation and automation of cloud solutions, data pipelines and CI/CD processes oriented to secure and scalable environments.",
         },
         {
             icon: Academy,
